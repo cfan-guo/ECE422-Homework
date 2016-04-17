@@ -1,6 +1,4 @@
 # Question 5
-
-# Question 5
 from math import *
 
 f = 12.5e9
@@ -33,6 +31,6 @@ print("G/T: "+str(GTrat_dB)+" [dB/K]")
 #Gr = (L*pi/lambda)^2*er ==> L = sqrt(Gr/er)*lambda/pi
 A_phys = Gr/(4*pi*er)*(lambda_d)*(lambda_d)
 L1 = (lambda_d/pi)*sqrt(Gr/er)
-print("A_phys: "+str(A_phys))
-print("Length: "+str(L1))
+print("A_phys: "+str(A_phys)+"m^2")
+print("Length: "+str(L1)+"m")
 
